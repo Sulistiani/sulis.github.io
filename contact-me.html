@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sulistiani | Portofolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav id="hamnav">
+    <!-- [THE HAMBURGER] -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+    <!-- [MENU ITEMS] -->
+      <div id="hamitems">
+          <a href="index.html">Home</a>
+          <a href="about-me.html">About</a>
+          <a href="portofolio.html">Portofolio</a>
+          <a href="journey.html">My Journey</a>
+          <a href="contact-me.html">Contact Me</a>
+      </div>
+  </nav>
+  <div class="container-fluids">
+      <div class="header" id="myHeader">
+          <nav class="menu">
+              <ul class="menu-list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-me.html">About me</a></li>
+                  <li><a href="portofolio.html">Portofolio</a></li>
+                  <li> <a href="journey.html">My Journey</a></li>
+                  <li><a href="contact-me.html">Contact Me</a></li>
+              </ul>
+          </nav>
+      </div>
+  </div>
+ <div class="container-fluids">
+   <div class="contact-me">
+    <div class="container">
+      <div class="row gutters">
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+          <div class="card-contact-me h-100">
+            <div class="card-body">
+              <div class="account-settings">
+                <div class="user-profile">
+                  <i class="far fa-envelope-open"></i>
+                  <h5 class="user-name">Sulistiani</h5>
+                  <h6 class="user-email">sulistiani2412@gmail.com</h6>
+                </div>
+                <div class="about">
+                  <h5>Let's Talk</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+          <div class="card-contact-me h-100">
+            <div class="card-body">
+              <div class="row gutters">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <h6>Send E-mail</h6>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="form-group">
+                    <label for="Name">Full Name</label>
+                    <input type="url" class="form-control" id="website" placeholder="Full name">
+                    
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                  <div class="form-group">
+                    <label for="eMail">Email</label>
+                    <input type="email" class="form-control" id="eMail" placeholder="Enter email ID">
+                  </div>
+                </div>
+              </div>
+              <div class="row gutters">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label for="Street">Text</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+              <div class="row gutters">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="text-right">
+                    <button type="button" id="submit" name="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+   </div>
+ </div>
+  <div class="container-fluids">
+      <div class="footer">
+        <div class="social-media-icon">
+        <div class="row">
+          <ul>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </ul>
+        <p>Sulistiani 2021 Alright Served</p>
+    </div>
+  </div>
+  </div>
+</div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>
