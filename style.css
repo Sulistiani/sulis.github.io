@@ -35,7 +35,7 @@ img {
     z-index: 100;
   }
   
-  /* [ON SMALL SCREENS] */
+  /* [ON SMALL SCREENSs] */
   @media screen and (max-width: 768px){
     /* Show Hamburger Icon */
 
